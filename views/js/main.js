@@ -540,6 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     movingElem.appendChild(elem);
   }
+  // fill items here so that it's not being done in updatePositions()
   items = document.getElementsByClassName('mover');
   updatePositions();
 });
