@@ -44,12 +44,11 @@ for the pizza page
 
 ## PageSpeed Usage with this app
 
-1) Download and install ngrok to the top-level of the project directory to make your local server accessible remotely.
-2) In a command line, go to the project directory on your computer (wherever your cloned it to, or extracted the zip file) and type:
+1) In a command line, go to the project directory on your computer (wherever your cloned it to, or extracted the zip file) and type:
 ```
 ./ngrok http 8080
 ```
-3) Copy the public URL ngrok gives you, append the specific page that you'd like to look at, ie: 
+2) Copy the public URL ngrok gives you, append the specific page that you'd like to look at, ie: 
 ```
 http://<ngrokUrl>/app/index.html)
 ```
