@@ -1,0 +1,1 @@
+function logCRP(){const a=window.performance.timing,b=a.domContentLoadedEventStart-a.domLoading,c=a.domComplete-a.domLoading;document.getElementById("crp-stats").textContent="DCL: "+b+"ms, onload: "+c+"ms",console.log("DCL: "+b+"ms, onload: "+c+"ms")}window.addEventListener("load",function(a){logCRP()});
